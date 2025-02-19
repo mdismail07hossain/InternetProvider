@@ -1,37 +1,42 @@
 import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-// import Img1 from "./img/router1.jpg";
+import Img1 from "./img/router1.jpg";
+import Imge2 from "./img/router2.png";
+import Img3 from "./img/router3.jpg";
+import Img4 from "./img/router4.jpg";
+import Img5 from './img/router5png.png';
+import Img6 from './img/router6.jpg';
 
 const locations = [
   {
     name: "Jersey City",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router1.jpg",
+    image: Img1,
   },
   {
     name: "Galveston",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router2.png",
+    image: Imge2,
   },
   {
     name: "San Francisco",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router3.jpg",
+    image: Img3,
   },
   {
     name: "Dunao, California",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router4.jpg",
+    image:Img4,
   },
   {
     name: "Manhattan",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router5png.png",
+    image: Img5,
   },
   {
     name: "Upper East Side",
     time: "Price : $25",
-    image: "/src/Component/HomeComponent/img/router6.jpg",
+    image: Img6,
   },
 ];
 

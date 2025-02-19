@@ -104,7 +104,7 @@ const DashboardSidebar = () => {
         <div className="flex items-center space-x-3">
           <div className="w-[100px] ml-5 mt-1">
             <NavLink to={"/"} className="flex items-center">
-              <img src="/src/assets/A-removebg-preview.png" alt="" />
+              <img src="/src/Pages/Sheard/imges/A-removebg-preview.png" alt="" />
             </NavLink>
           </div>
           <h1 className="text-xl font-bold">Available Services</h1>

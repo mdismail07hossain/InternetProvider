@@ -40,6 +40,12 @@
         --radius: 0.5rem;
     }
 }
+.swiper-slide .paymentimg {
+    width: 700px;
+}
+.swiper-slide .contactus {
+    width: 700px;
+}
 
 
 

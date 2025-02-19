@@ -1,11 +1,32 @@
 import React from "react";
+import Aboutusimg from "./img/about.webp";
 
 const About = () => {
   return (
-    <div className="bg-gray-100 min-h-screen p-6">
-      <div className="max-w-6xl mx-auto py-12">
-        {/* Hero Section */}
-        <div className="text-center mb-12">
+    <div className="bg-gray-100  ">
+       <div className="relative">
+        <img className="w-full h-[700px]" src={Aboutusimg} alt="" />
+        <div className="absolute inset-0 bg-blue-900 opacity-20" >
+
+        </div>
+        <div className="absolute inset-0 flex  justify-between items-center text-center mb-12">
+          <div className="w-[50%]">
+          <h1 className="text-[58px] font-bold text-gray-100 ps-20">About Us Available Services</h1>
+          <p className="mt-4 text-[30px] font-bold text-gray-200 text-justify ps-20 ">
+            Availible Services 🤗 Internet started its operation in the year 2005
+            with the commitment of quality internet service at an affordable
+            <br />
+            <samp className="mt-10 text-xl font-bold text-blue-100">
+              Our Trade License Number is: 05-56175
+            </samp>
+          </p>
+          </div>
+          <div >
+
+          </div>
+        </div>
+       </div>
+       <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
           <p className="mt-4 text-lg font-semibold text-gray-800 text-justify">
             Availible Services 🫡 Internet started its operation in the year 2005
@@ -23,6 +44,8 @@ const About = () => {
             </samp>
           </p>
         </div>
+      <div className="max-w-6xl mx-auto py-12">
+        {/* Hero Section */}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">

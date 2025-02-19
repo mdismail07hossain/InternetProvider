@@ -1,9 +1,11 @@
 import React from "react";
+import Agentimg from "./img/coverage-bg.webp";
 
 const Agents = () => {
   return (
     <div>
       <div className="bg-gray-100 min-h-screen">
+       
         {/* Hero Section */}
         <section className="bg-violet-400 text-white py-20 text-center">
           <h1 className="text-4xl font-bold">Comprehensive Coverage Plans</h1>
