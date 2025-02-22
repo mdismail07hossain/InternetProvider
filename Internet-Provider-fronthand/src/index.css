@@ -46,6 +46,54 @@
 .swiper-slide .contactus {
     width: 700px;
 }
+.infinity-color-animation {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #132afc, #6a11cb, #fc2525, #067515);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-position: 0% 50%; 
+		background: linear-gradient(to right, #ff7e5f, #132afc, #6a11cb, #fc2525, #067515);
+		-webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+    }
+    25% {
+        background-position: 50% 50%; 
+		background: linear-gradient(to right, #641906, #25cc10, #11bfcb, #cf0dcf, #756e06);
+		-webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+    }
+    50% {
+        background-position: 100% 50%;
+		background-position: 0% 50%; 
+		background: linear-gradient(to right, #ff7e5f, #132afc, #6a11cb, #fc2525, #067515);
+		-webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+    }
+    75% {
+        background-position: 50% 50%;
+		background: linear-gradient(to right, #5ffff7, #8b13fc, #cb2711, #fcee25, #430675);
+		-webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+
+    }
+    100% {
+        background-position: 0% 50%;
+		background: linear-gradient(to right, #5f92ff, #13fc4d, #cb2711, #fc2525, #067515);
+		-webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 10s ease-in-out infinite;
+    }
+}
 
 
 

@@ -6,7 +6,7 @@ const About = () => {
     <div className="bg-gray-100  ">
        <div className="relative">
         <img className="w-full h-[700px]" src={Aboutusimg} alt="" />
-        <div className="absolute inset-0 bg-blue-900 opacity-20" >
+        <div className="absolute inset-0 bg-[#011d94] opacity-50" >
 
         </div>
         <div className="absolute inset-0 flex  justify-between items-center text-center mb-12">
@@ -26,8 +26,8 @@ const About = () => {
           </div>
         </div>
        </div>
-       <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
+       <div className="text-center mt-10 mb-12 px-20">
+          <h1 className="text-4xl font-bold uppercase infinity-color-animation ">About Us</h1>
           <p className="mt-4 text-lg font-semibold text-gray-800 text-justify">
             Availible Services 🫡 Internet started its operation in the year 2005
             with the commitment of quality internet service at an affordable
