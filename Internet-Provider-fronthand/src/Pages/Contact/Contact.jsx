@@ -1,9 +1,30 @@
 import React from "react";
+import Contactimg from "./img/contact.webp";
 
 const Contact = () => {
   return (
     <div>
-      <section className="bg-gray-100 py-12">
+      <div className="bg-gray-100 py-12">
+        <div className="relative" >
+           <img className="w-full h-[700px]" src={Contactimg} alt="" />
+                    <div className="absolute inset-0 bg-[#2430d4] opacity-30" >
+          
+                  </div>
+                 <div className="absolute inset-0 flex  justify-between items-center text-center mb-12">
+
+                 <div >
+                   <h2 className="text-6xl font-bold text-gray-100 px-20">
+                   Get in touch
+              </h2>
+               <p className="mt-4 text-4xl font-bold text-gray-100 px-20">
+               If you would like to find out more about how we can help you, please give us a call or drop us an email. We welcome your comments and suggestions about this website and/or any other issues that you wish to raise.
+               </p>
+                </div>
+          <div>
+
+          </div>
+          </div>
+        </div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl">
@@ -88,7 +109,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

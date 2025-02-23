@@ -1,5 +1,7 @@
 import React from "react";
 import Aboutusimg from "./img/about.webp";
+import Teamimg from "./img/job-5382501_1280.jpg";
+import Memberimg from "./img/4209.jpg";
 
 const About = () => {
   return (
@@ -15,10 +17,8 @@ const About = () => {
           <p className="mt-4 text-[30px] font-bold text-gray-200 text-justify ps-20 ">
             Availible Services 🤗 Internet started its operation in the year 2005
             with the commitment of quality internet service at an affordable
-            <br />
-            <samp className="mt-10 text-xl font-bold text-blue-100">
-              Our Trade License Number is: 05-56175
-            </samp>
+          
+           
           </p>
           </div>
           <div >
@@ -26,7 +26,8 @@ const About = () => {
           </div>
         </div>
        </div>
-       <div className="text-center mt-10 mb-12 px-20">
+       <div className="flex flex-row items-center">
+          <div className="basis-1/2  text-center  mt-10 mb-12 px-20">
           <h1 className="text-4xl font-bold uppercase infinity-color-animation ">About Us</h1>
           <p className="mt-4 text-lg font-semibold text-gray-800 text-justify">
             Availible Services 🫡 Internet started its operation in the year 2005
@@ -43,62 +44,80 @@ const About = () => {
               Our Trade License Number is: 05-56175
             </samp>
           </p>
+          </div>
+          <div className="basis-1/2 p-20">
+            <img src={Teamimg} alt="" srcset="" />
+          </div>
         </div>
       <div className="max-w-6xl mx-auto py-12">
         {/* Hero Section */}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center card3">
+          <div class="overlay3"></div>
+          <div class="go-corner3">
+                 <span class="go-arrow3">&#x2192;</span>
+          </div>
             <img
-              src="https://via.placeholder.com/150"
+              src={Memberimg}
               alt="Team Member"
               className="w-24 h-24 mx-auto rounded-full"
             />
-            <h3 className="mt-4 text-xl font-semibold text-gray-800">
-              John Doe
+            <h3 className="mt-4 text-xl font-semibold text-gray-800 card-title3">
+              Md Ismail Hossain
             </h3>
-            <p className="text-gray-500">CEO & Founder</p>
+            <p className="text-gray-500 small-desc3">CEO & Founder</p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center card1">
+          <div class="overlay1"></div>
+          <div class="go-corner1">
+                 <span class="go-arrow1">&#x2192;</span>
+          </div>
             <img
-              src="https://via.placeholder.com/150"
+              src={Memberimg}
               alt="Team Member"
               className="w-24 h-24 mx-auto rounded-full"
             />
-            <h3 className="mt-4 text-xl font-semibold text-gray-800">
+            <h3 className="mt-4 text-xl font-semibold text-gray-800 card-title1">
               Jane Smith
             </h3>
-            <p className="text-gray-500">CTO</p>
+            <p className="text-gray-500 small-desc1">CTO</p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center card2">
+          <div class="overlay2"></div>
+          <div class="go-corner2">
+                 <span class="go-arrow2">&#x2192;</span>
+          </div>
             <img
-              src="https://via.placeholder.com/150"
+              src={Memberimg}
               alt="Team Member"
               className="w-24 h-24 mx-auto rounded-full"
             />
-            <h3 className="mt-4 text-xl font-semibold text-gray-800">
+            <h3 className="mt-4 text-xl font-semibold text-gray-800 card-title2">
               Michael Brown
             </h3>
-            <p className="text-gray-500">Lead Developer</p>
+            <p className="text-gray-500 small-desc2">Lead Developer</p>
           </div>
         </div>
 
         {/* Mission Section */}
-        <div className="flex gap-5">
-          <div className="mt-12 bg-white p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-semibold text-gray-800">
+        <div className="flex flex-row items-center gap-5">
+          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card3">
+          <div class="overlay3"></div>
+            <h2 className="text-2xl font-semibold text-gray-800 small-desc3">
               Our Mission
             </h2>
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 text-gray-600 small-desc3">
               Our mission is to empower businesses with cutting-edge technology
               solutions that drive efficiency, innovation, and growth.
             </p>
           </div>
-          <div className="mt-12 bg-white p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-semibold text-gray-800">Our Vision</h2>
-            <p className="mt-4 text-gray-600">
+          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card3 h-[200px]">
+          <div class="overlay3"></div>
+            <h2 className="text-4xl font-semibold text-gray-800 small-desc3">Our Vision</h2>
+            <p className="mt-4 text-2xl text-gray-600 small-desc3">
               Our mission is to empower businesses with cutting-edge technology
               solutions that drive efficiency, innovation, and growth.
             </p>

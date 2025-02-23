@@ -5,16 +5,33 @@ const Agents = () => {
   return (
     <div>
       <div className="bg-gray-100 min-h-screen">
+        <div className="relative">
+          <img className="w-full h-[700px]" src={Agentimg} alt="" />
+          <div className="absolute inset-0 bg-[#111f5c] opacity-60" >
+
+        </div>
+        <div className="absolute inset-0 flex  justify-between items-center text-white py-20 text-center">
+          <div className="w-[50%]">
+          <h1 className="text-6xl font-bold text-start px-20">Coverage area</h1>
+          <p className="mt-4 text-2xl font-bold text-start px-20">
+          Available Services Internet's coverage area is wide. Dot Internet is spread almost everywhere in Dhaka city. Check the availability of all coverage areas in Dhaka.
+          </p>
+          </div>
+          <div>
+
+          </div>
+        </div>
+        </div>
        
         {/* Hero Section */}
-        <section className="bg-violet-400 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold">Comprehensive Coverage Plans</h1>
-          <p className="mt-4 text-lg">
-            Choose a plan that fits your needs and budget.
-          </p>
-        </section>
 
         {/* Features Section */}
+        <div className="">
+          <h1 className="text-6xl font-bold text-center px-20 text-blue-800">Coverage area</h1>
+          <p className="mt-4 text-2xl font-bold text-center px-20">
+          Available Services Internet's coverage area is wide. Dot Internet is spread almost everywhere in Dhaka city. Check the availability of all coverage areas in Dhaka.
+          </p>
+          </div>
         <section className="max-w-6xl mx-auto py-12 px-6 grid md:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-lg shadow-md text-center">
             <h3 className="text-xl font-semibold">Basic Coverage</h3>
