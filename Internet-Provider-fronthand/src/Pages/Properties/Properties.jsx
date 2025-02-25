@@ -1,8 +1,173 @@
 import React from "react";
-import "./About.css";
+import Propertimg from "./img/pay-bill.webp";
+import "./css/propertis.css";
 const Properties = () => {
   return (
     <>
+         <div className="relative">
+                  <img className="w-full h-[700px]" src={Propertimg} alt="" />
+                  <div className="absolute inset-0 bg-[#111f5c] opacity-60" >
+                </div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <h2 className="text-3xl font-bold leading-tight text-gray-100 sm:text-6xl xl:text-5xl mb-6 py-10">
+          We Have some special Pakeage!
+        </h2>
+        <button >
+ See More...
+  <div className="star-1">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div className="star-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div className="star-3">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div className="star-4">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div className="star-5">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+  <div className="star-6">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlSpace="preserve"
+      version="1.1"
+      style={{
+        shapeRendering: 'geometricPrecision',
+        textRendering: 'geometricPrecision',
+        imageRendering: 'optimizeQuality',
+        fillRule: 'evenodd',
+        clipRule: 'evenodd',
+      }}
+      viewBox="0 0 784.11 815.53"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs />
+      <g id="Layer_x0020_1">
+        <metadata id="CorelCorpID_0Corel-Layer" />
+        <path
+          className="fil0"
+          d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+        />
+      </g>
+    </svg>
+  </div>
+</button>
+
+            </div>
+                </div>
       <div className="max-w-xl mx-auto text-center xl:max-w-2xl">
         <h2 className="text-3xl font-bold leading-tight text-gray-500 sm:text-4xl xl:text-5xl mb-6 py-10">
           We Have some special Pakeage!

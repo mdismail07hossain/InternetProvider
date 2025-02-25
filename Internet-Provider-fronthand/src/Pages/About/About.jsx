@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/about.css"
 import Aboutusimg from "./img/about.webp";
 import Teamimg from "./img/job-5382501_1280.jpg";
 import Memberimg from "./img/4209.jpg";
@@ -9,9 +10,10 @@ const About = () => {
        <div className="relative">
         <img className="w-full h-[700px]" src={Aboutusimg} alt="" />
         <div className="absolute inset-0 bg-[#011d94] opacity-50" >
-
         </div>
+
         <div className="absolute inset-0 flex  justify-between items-center text-center mb-12">
+          <div >
           <div className="w-[50%]">
           <h1 className="text-[58px] font-bold text-gray-100 ps-20">About Us Available Services</h1>
           <p className="mt-4 text-[30px] font-bold text-gray-200 text-justify ps-20 ">
@@ -21,11 +23,19 @@ const About = () => {
            
           </p>
           </div>
-          <div >
-
+          <div className="w-[15%] ms-20 ">
+          <button className="btn text-6xl"><i className="animation"></i>More Detailes<i className="animation"></i>
+          </button>
           </div>
-        </div>
+          </div>
+          <div className="">
+          <div className="items-start">
+       
+      </div>
+      </div>
+      </div>
        </div>
+
        <div className="flex flex-row items-center">
           <div className="basis-1/2  text-center  mt-10 mb-12 px-20">
           <h1 className="text-4xl font-bold uppercase infinity-color-animation ">About Us</h1>

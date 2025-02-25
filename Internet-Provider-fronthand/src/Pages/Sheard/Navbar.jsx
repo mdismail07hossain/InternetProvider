@@ -21,41 +21,6 @@ const Navbar = () => {
     setLoginModalOpen(false);
   };
 
-  const items = [
-    {
-      key: "1",
-      label: (
-        <NavLink className={"text-base font-medium text-[#ff4848]"} to={"/properties"}>
-          About Our Packs
-        </NavLink>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        <NavLink className={"text-base font-medium"} to={"/service"}>
-          Our Service
-        </NavLink>
-      ),
-    },
-    {
-      key: "3",
-      label: (
-        <NavLink className={"text-base font-medium"} to={"/newproperty"}>
-          Submit New Property
-        </NavLink>
-      ),
-    },
-    {
-      key: "4",
-      label: (
-        <NavLink className={"text-base font-medium"} to={"/gallery"}>
-          Gallery
-        </NavLink>
-      ),
-    },
-  ];
-
   const navLinks = (
     <>
       <li className="px-4 py-2 text-lg font-semibold duration-700 hover:text-[#ff4848] rounded-lg">
@@ -68,15 +33,10 @@ const Navbar = () => {
         <NavLink to="/agents">Coverage</NavLink>
       </li>
       <li className="px-4 py-2 text-lg font-semibold duration-700 hover:text-[#ff4848] rounded-lg relative group">
-        <NavLink to="/pages">
-          <Dropdown
-            className="px-4 py-2"
-            menu={{ items, className: "w-[200px]" }}
-            placement="bottom"
-            arrow
-          >
+        <NavLink to="/properties">
+         
             Package System
-          </Dropdown>
+        
         </NavLink>
       </li>
       <li className="px-4 py-2 text-lg font-semibold duration-700 hover:text-[#ff4848] text-green-500 rounded-lg">
