@@ -1,5 +1,5 @@
 /* From Uiverse.io by mi-series */ 
-.btn {
+.btnt {
     outline: 0;
     background: #145eff;
     /* min-width: 100px; */
@@ -19,14 +19,14 @@
     cursor: pointer;
   }
   
-  .btn:hover{
+  .btnt:hover{
     background: none;
     color: #fff;
     border: none;
     box-shadow: #8540b3 0px 0px 5px ;
   }
   
-  .btn .animation {
+  .btnt .animation {
     border-radius: 100%;
     animation: ripple 0.6s linear infinite;
   }

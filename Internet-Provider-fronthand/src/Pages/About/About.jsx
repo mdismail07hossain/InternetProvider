@@ -24,7 +24,7 @@ const About = () => {
           </p>
           </div>
           <div className="w-[15%] ms-20 ">
-          <button className="btn text-6xl"><i className="animation"></i>More Detailes<i className="animation"></i>
+          <button className="btnt"><i className="animation"></i>More Detailes<i className="animation"></i>
           </button>
           </div>
           </div>
@@ -114,20 +114,20 @@ const About = () => {
 
         {/* Mission Section */}
         <div className="flex flex-row items-center gap-5">
-          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card3">
-          <div class="overlay3"></div>
-            <h2 className="text-2xl font-semibold text-gray-800 small-desc3">
+          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card4">
+          <div class="overlay4"></div>
+            <h2 className="text-4xl font-semibold text-gray-800 ">
               Our Mission
             </h2>
-            <p className="mt-4 text-gray-600 small-desc3">
+            <p className="mt-4 text-2xl text-gray-600 ">
               Our mission is to empower businesses with cutting-edge technology
               solutions that drive efficiency, innovation, and growth.
             </p>
           </div>
-          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card3 h-[200px]">
-          <div class="overlay3"></div>
-            <h2 className="text-4xl font-semibold text-gray-800 small-desc3">Our Vision</h2>
-            <p className="mt-4 text-2xl text-gray-600 small-desc3">
+          <div className="basis-1/2 mt-12 bg-white p-8 rounded-lg shadow-lg card4 ">
+          <div class="overlay4"></div>
+            <h2 className="text-4xl font-semibold text-gray-800 ">Our Vision</h2>
+            <p className="mt-4 text-2xl text-gray-600  ">
               Our mission is to empower businesses with cutting-edge technology
               solutions that drive efficiency, innovation, and growth.
             </p>

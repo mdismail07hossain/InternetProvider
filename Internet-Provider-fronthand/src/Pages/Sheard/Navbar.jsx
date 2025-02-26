@@ -76,7 +76,7 @@ const Navbar = () => {
               >
                 <button
                   onClick={openLoginModal}
-                  className="px-10 font-medium py-2 rounded-lg bg-[#2c2e33] hover:bg-[#f1913d] text-white text-lg transition duration-700"
+                  className="px-10 font-medium py-2 rounded-lg bg-[#2c2e33] hover:bg-[#403df1] text-white text-lg transition duration-700"
                 >
                   Login
                 </button>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <a
                   onClick={openLoginModal}
                   href="/authcomponent"
-                  className="text-center mt-3 mb-2 text-[#f1913d] underline text-base"
+                  className="text-center mt-3 mb-2 text-[#5e3df1] underline text-base"
                 >
                   Registration
                 </a>

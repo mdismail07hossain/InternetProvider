@@ -30,7 +30,7 @@ const AuthComponent = () => {
                         <input type="text" placeholder="Name" className="w-[160%]  outline-none p-2 my-2 bg-gray-100 rounded" />
                         <input type="email" placeholder="Email" className="w-[160%]  outline-none p-2 my-2 bg-gray-100 rounded" />
                         <input type="password" placeholder="Password" className="w-[160%]  outline-none p-2 my-2 bg-gray-100 rounded" />
-                        <button id="LoginBtn" className="bg-red-500 text-white px-6 py-2 rounded mt-4"><a href="/dashboard">Sign Up</a></button>
+                        <button id="LoginBtn" className=" text-white px-6 py-2 rounded mt-4"><a href="/dashboard">Sign Up</a></button>
                     </form>
                 </div>
 
@@ -54,12 +54,12 @@ const AuthComponent = () => {
                         <input type="email" placeholder="Email" className="w-[160%] outline-none p-2 my-2 bg-gray-100 rounded" />
                         <input type="password" placeholder="Password" className="w-[160%] outline-none p-2 my-2 bg-gray-100 rounded" />
                         <a href="#" className="text-blue-500 text-sm mt-2">Forgot your password?</a>
-                        <button id="LoginBtn" className="bg-red-500 text-white px-6 py-2 rounded mt-4">Sign In</button>
+                        <button id="LoginBtn" className=" text-white px-6 py-2 rounded mt-4">Sign In</button>
                     </form>
                 </div>
 
                 {/* Overlay */}
-                <div className="overlay-container z-30 absolute top-0 left-1/2 w-1/2 h-full bg-gradient-to-r from-red-500 to-pink-500 text-white flex flex-col items-center justify-center p-8 transition-transform duration-500">
+                <div className="overlay-container z-30 absolute top-0 left-1/2 w-1/2 h-full bg-gradient-to-r from-indigo-400 to-blue-500 text-white flex flex-col items-center justify-center p-8 transition-transform duration-500">
                     {isSignUp ? (
                         <div className="text-center">
                             <h1 className="text-2xl font-bold">Welcome Back!</h1>

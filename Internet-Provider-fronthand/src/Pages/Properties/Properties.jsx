@@ -12,7 +12,7 @@ const Properties = () => {
             <h2 className="text-3xl font-bold leading-tight text-gray-100 sm:text-6xl xl:text-5xl mb-6 py-10">
           We Have some special Pakeage!
         </h2>
-        <button >
+        <button className="button">
  See More...
   <div className="star-1">
     <svg

@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import Myimges from "./dashimg/4209.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesomeIcon
 import {
   faBars,
@@ -335,7 +336,7 @@ const NavbarDashboard = () => {
                 <div className="w-10 rounded-full">
                   <img
                     alt="Tailwind CSS Navbar component"
-                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    src={Myimges}
                   />
                 </div>
               </div>

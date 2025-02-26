@@ -91,7 +91,7 @@ const Contact = () => {
     Already have an account? <span className="span">login</span>
   </p>
   <div className="flex-row">
-    <button className="btn google">
+    <button className="btnn google">
       <svg
         version="1.1"
         width="20"
