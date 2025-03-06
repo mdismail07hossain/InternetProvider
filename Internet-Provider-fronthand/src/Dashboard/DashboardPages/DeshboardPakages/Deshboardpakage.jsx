@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 const Deshboardpakage = () => {
-  render();
   return (
     <div>
-      <div className="bg-gray-100 text-gray-900">
+      <div className="ml-48 px-8  pt-28 text-gray-900">
         {/* Header Section */}
         <header className="bg-blue-600 text-white py-6 text-center">
           <h1 className="text-3xl font-semibold">

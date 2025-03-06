@@ -1,5 +1,7 @@
 import React from "react";
+// import Adduser from "@/Dashboard/DashboardPages/DashboardAdduser/adduser";
 import Agentimg from "./img/coverage-bg.webp";
+import Adduser from "@/Dashboard/DashboardPages/DashboardAdduser/adduser";
 
 const Agents = () => {
   return (
@@ -7,31 +9,35 @@ const Agents = () => {
       <div className="bg-gray-100 min-h-screen">
         <div className="relative">
           <img className="w-full h-[700px]" src={Agentimg} alt="" />
-          <div className="absolute inset-0 bg-[#111f5c] opacity-60" >
-
-        </div>
-        <div className="absolute inset-0 flex  justify-between items-center text-white py-20 text-center">
-          <div className="w-[50%]">
-          <h1 className="text-6xl font-bold text-start px-20">Coverage area</h1>
-          <p className="mt-4 text-2xl font-bold text-start px-20">
-          Available Services Internet's coverage area is wide. Dot Internet is spread almost everywhere in Dhaka city. Check the availability of all coverage areas in Dhaka.
-          </p>
+          <div className="absolute inset-0 bg-[#111f5c] opacity-60"></div>
+          <div className="absolute inset-0 flex  justify-between items-center text-white py-20 text-center">
+            <div className="w-[50%]">
+              <h1 className="text-6xl font-bold text-start px-20">
+                Coverage area
+              </h1>
+              <p className="mt-4 text-2xl font-bold text-start px-20">
+                Available Services Internet's coverage area is wide. Dot
+                Internet is spread almost everywhere in Dhaka city. Check the
+                availability of all coverage areas in Dhaka.
+              </p>
+            </div>
+            <div></div>
           </div>
-          <div>
+        </div>
 
-          </div>
-        </div>
-        </div>
-       
         {/* Hero Section */}
 
         {/* Features Section */}
         <div className="">
-          <h1 className="text-6xl font-bold text-center px-20 text-blue-800">Coverage area</h1>
+          <h1 className="text-6xl font-bold text-center px-20 text-blue-800">
+            Coverage area
+          </h1>
           <p className="mt-4 text-2xl font-bold text-center px-20">
-          Available Services Internet's coverage area is wide. Dot Internet is spread almost everywhere in Dhaka city. Check the availability of all coverage areas in Dhaka.
+            Available Services Internet's coverage area is wide. Dot Internet is
+            spread almost everywhere in Dhaka city. Check the availability of
+            all coverage areas in Dhaka.
           </p>
-          </div>
+        </div>
         <section className="max-w-6xl mx-auto py-12 px-6 grid md:grid-cols-3 gap-6">
           <div className="p-6 bg-white rounded-lg shadow-md text-center">
             <h3 className="text-xl font-semibold">Basic Coverage</h3>
@@ -94,6 +100,9 @@ const Agents = () => {
             </button>
           </div>
         </section>
+        <div className="">
+          <Adduser />
+        </div>
       </div>
     </div>
   );

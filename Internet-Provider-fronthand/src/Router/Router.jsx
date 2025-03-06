@@ -15,6 +15,9 @@ import DashboardHome from "@/Dashboard/DashboardPages/DashboardHome/DashboardHom
 import DashboardProperty from "@/Dashboard/DashboardPages/DashboardProperty/DashboardProperty";
 import Dashboardservices from "@/Dashboard/DashboardPages/Dashboardservices/Dashboardservices";
 import Deshboardpakage from "@/Dashboard/DashboardPages/DeshboardPakages/Deshboardpakage";
+import Adduser from "@/Dashboard/DashboardPages/DashboardAdduser/adduser";
+import Userlist from "@/Dashboard/DashboardPages/DashboardUserlist/userlist";
+import Addpackage from "@/Dashboard/DashboardPages/DashBoardpakeage/addpackage";
 
 const Router = createBrowserRouter([
   {
@@ -78,6 +81,18 @@ const Router = createBrowserRouter([
       {
         path: "dashboardpackage",
         element: <Deshboardpakage></Deshboardpakage>,
+      },
+      {
+        path: "adduser",
+        element: <Adduser></Adduser>,
+      },
+      {
+        path: "userlist",
+        element: <Userlist></Userlist>,
+      },
+      {
+        path: "addpackage",
+        element: <Addpackage></Addpackage>,
       },
     ],
   },

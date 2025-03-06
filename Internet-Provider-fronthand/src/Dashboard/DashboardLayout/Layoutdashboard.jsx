@@ -7,7 +7,7 @@ import Dashboardfooter from "../DashboardPages/SheardDashboard/Dashboardfooter";
 
 const Layoutdashboard = () => {
   return (
-    <div className="flex gap-[18rem] bg-gray-100">
+    <div className="flex gap-[18rem] ">
       <DashboardSidebar></DashboardSidebar>
       <div className="">
         <NavbarDashboard className="bg-gray-100"></NavbarDashboard>

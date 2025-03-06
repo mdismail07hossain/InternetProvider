@@ -26,19 +26,19 @@ const DashboardSidebar = () => {
         </NavLink>
       </li>
       <li className="hover:bg-gray-800 hover:text-white hover:font-bold mb-2 p-2 gap-2 rounded-md flex items-center space-x-2 cursor-pointer">
-        <NavLink to={"dashboardproperty"} className="flex items-center">
+        <NavLink to={"adduser"} className="flex items-center">
           <FaUserTie />
           <span className="ml-5">Add Customer</span>
         </NavLink>
       </li>
       <li className="hover:bg-gray-800 hover:text-white hover:font-bold mb-2 p-2 gap-2 rounded-md flex items-center space-x-2 cursor-pointer">
-        <NavLink to={"dashboardservices"} className="flex items-center">
+        <NavLink to={"Userlist"} className="flex items-center">
           <FaUsers />
           <span className="ml-5">Manage Customer</span>
         </NavLink>
       </li>
       <li className="hover:bg-gray-800 hover:text-white hover:font-bold mb-2 p-2 gap-2 rounded-md flex items-center space-x-2 cursor-pointer">
-        <NavLink to={"/"} className="flex items-center">
+        <NavLink to={"addpackage"} className="flex items-center">
           <FaUsers />
           <span className="ml-5">Add Packages</span>
         </NavLink>
@@ -104,7 +104,10 @@ const DashboardSidebar = () => {
         <div className="flex items-center space-x-3">
           <div className="w-[100px] ml-5 mt-1">
             <NavLink to={"/"} className="flex items-center">
-              <img src="/src/Pages/Sheard/imges/A-removebg-preview.png" alt="" />
+              <img
+                src="/src/Pages/Sheard/imges/A-removebg-preview.png"
+                alt=""
+              />
             </NavLink>
           </div>
           <h1 className="text-xl font-bold">Available Services</h1>
