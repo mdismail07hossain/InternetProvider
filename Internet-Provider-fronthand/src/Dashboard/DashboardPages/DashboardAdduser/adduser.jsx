@@ -7,6 +7,7 @@ const Adduser = () => {
     email: "",
     numder: "",
     address: "",
+    package: "",
   });
 
   const changeUserFieldHandler = (e) => {
@@ -142,6 +143,27 @@ const Adduser = () => {
                         type="text"
                         id="address"
                         name="address"
+                        className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                        placeholder="Enter address"
+                        onChange={(e) => changeUserFieldHandler(e)}
+                        required
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label
+                        htmlFor="address"
+                        className="block text-sm font-medium text-gray-700"
+                      >
+                        Package:
+                      </label>
+                    </td>
+                    <td>
+                      <input
+                        type="text"
+                        id="package"
+                        name="package"
                         className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                         placeholder="Enter address"
                         onChange={(e) => changeUserFieldHandler(e)}

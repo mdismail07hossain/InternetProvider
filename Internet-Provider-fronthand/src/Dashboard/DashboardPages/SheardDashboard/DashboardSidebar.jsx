@@ -56,7 +56,7 @@ const DashboardSidebar = () => {
         </NavLink>
       </li>
       <li className="hover:bg-gray-800 hover:text-white hover:font-bold mb-2 p-2 gap-2 rounded-md flex items-center space-x-2 cursor-pointer">
-        <NavLink to={"/"} className="flex items-center">
+        <NavLink to={"dashboardservices"} className="flex items-center">
           <FaStar />
           <span className="ml-5">Reviews</span>
         </NavLink>

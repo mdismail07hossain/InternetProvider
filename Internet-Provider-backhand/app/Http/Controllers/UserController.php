@@ -58,6 +58,7 @@ class UserController extends Controller
                 'email' => $request->email,
                 'numder' => $request->numder,
                 'address' => $request->address,
+                'package' => $request->package,
             ]
         );
     }

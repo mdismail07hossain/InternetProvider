@@ -29,7 +29,7 @@ const Userlist = () => {
 
   return (
     <div className="ml-48 px-8  pt-32">
-      <h3 className="text-center text-bold font-6xl">User Details</h3>
+      <h3 className="text-center user">Connect New User</h3>
       <table className="table table-bordered pt-20">
         <thead>
           <tr>
@@ -39,6 +39,7 @@ const Userlist = () => {
             <th>Email</th>
             <th>Number</th>
             <th>Address</th>
+            <th>Package</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -52,6 +53,7 @@ const Userlist = () => {
                 <td>{user.email} </td>
                 <td>{user.numder} </td>
                 <td>{user.address} </td>
+                <td>{user.package} </td>
                 <td>
                   <NavLink
                     to={`/view/${user.id}`}
